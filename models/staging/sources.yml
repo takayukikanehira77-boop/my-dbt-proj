@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: bronze
+    description: "Bronze (Streaming Table) sources in Unity Catalog"
+    catalog: workspace
+    schema: default
+    tables:
+      - name: 2026_sample_superstore_bronze
+        description: "Streaming bronze table for Superstore sample"
