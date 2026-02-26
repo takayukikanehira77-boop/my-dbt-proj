@@ -1,4 +1,4 @@
 select
   *
-from {{ source('bronze', '2026_sample_superstore_bronze') }}
+from {{ source('silver', '2026_sample_superstore_silver') }}
 limit 10
